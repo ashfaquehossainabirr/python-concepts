@@ -45,8 +45,8 @@ const user = {
     }
 }
 
-// setTimeout(user.getName, 1000)
+// setTimeout(user.getName, 1000) // Here user.getName used as a callback
 
 setTimeout(() => {
     user.getName()
-}, 1000) // Here user.getName used as a callback
+}, 1000)
